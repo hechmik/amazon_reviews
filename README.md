@@ -1,7 +1,6 @@
-# amazon_reviews
-
+# Amazon Reviews
 ## 1. Download dataset
-For downloading the different datasets it is sufficient to execute (script.sh)[dataset/script.sh] as follows:
+For downloading the different datasets it is sufficient to execute [script.sh](dataset/script.sh) as follows:
 ```bash
 ./script.sh dataset_links.txt  
 ```
