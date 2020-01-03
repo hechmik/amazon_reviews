@@ -5,7 +5,7 @@ For downloading the different datasets it is sufficient to execute [script.sh](d
 ./script.sh dataset_links.txt  
 ```
 
-If the script doesn't work you would have to change read, write and execute permissions as follows:
+If the script doesn't work you have to change read, write and execute permissions as follows:
 ```bash
 chmod 700 script.sh
 ```
