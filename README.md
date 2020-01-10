@@ -17,7 +17,9 @@ Windows users may have trouble in installing the **pystemer** library. In order 
 The project consists of different notebooks:
 1. **00_Initial_Data_Cleaning.ipynb** : in this notebook normalization techniques such as lowercasing, emoticon and slang replacements are performed
 2. **01_Preprocessing_Representation_Classification.ipynb**: in this notebook preprocessing techniques such as tokenization, spell checking and stemming are performed. The preprocessed dataset is then used for computing the TF-IDF Matrix and training several classification algorithms
-3. (Optional) **02_Download_tweets.ipynb**: in this notebook tweets related to CES2020 and replies to a given Samsung tweet are downloaded for later evaluation
+3. **02_Download_tweets.ipynb**: in this notebook tweets related to CES2020 and replies to a given Samsung tweet are downloaded for later evaluation
 4. **03_Tweets_Sentiment_Analysis.ipynb**: the best predictive model built in the notebook *01_Preprocessing_Representation_Classification.ipynb* are used for performing sentiment analysis on downloaded tweets
 
-Each notebook can be executed independtly thanks to intermediate dataset in the "dataset/" folder, vectorizer and predictive model in the "joblib_data/" folder.
+Each notebook can be executed independently thanks to:
+* intermediate datasets in the "dataset/" folder
+* vectorizer and predictive model in the "joblib_data/" folder.
