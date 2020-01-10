@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ### 3. Execute notebooks
 The project consists of different notebooks that should be executed in sequence:
-1. **00_Initial_Data_Cleaning.ipynb** : in this notebook normalization techniques such as lowercasing, emoticon and slang replacements performed
-2. **01_Preprocessing_Representation_Classification.ipynb**: in this notebook preprocessing techniques such as tokenization, spell checking and stemming are performed. The preprocessed dataset is then used for computing the TF-IDF Matrix and training classification algorithms
+1. **00_Initial_Data_Cleaning.ipynb** : in this notebook normalization techniques such as lowercasing, emoticon and slang replacements are performed
+2. **01_Preprocessing_Representation_Classification.ipynb**: in this notebook preprocessing techniques such as tokenization, spell checking and stemming are performed. The preprocessed dataset is then used for computing the TF-IDF Matrix and training several classification algorithms
 3. (Optional) **02_Download_tweets.ipynb**: in this notebook tweets related to CES2020 and replies to a given Samsung tweet are downloaded for later evaluation
-4. **03_Tweets_Sentiment_Analysis.ipynb**: predictive models built in the notebook *01_Preprocessing_Representation_Classification.ipynb* are used for performing sentiment analysis on downloaded tweets
+4. **03_Tweets_Sentiment_Analysis.ipynb**: the best predictive model built in the notebook *01_Preprocessing_Representation_Classification.ipynb* are used for performing sentiment analysis on downloaded tweets
