@@ -40,6 +40,9 @@ The reason why [01_Preprocessing_Representation_Classification.ipynb](01_Preproc
 ## 4. Have fun ! 
 ## References
 Justifying recommendations using distantly-labeled reviews and fined-grained aspects
+
 Jianmo Ni, Jiacheng Li, Julian McAuley
+
 Empirical Methods in Natural Language Processing (EMNLP), 2019
+
 [pdf](http://cseweb.ucsd.edu/~jmcauley/pdfs/emnlp19a.pdf)
